@@ -8,7 +8,9 @@ import dents from "../dents.png";
 function Grid() {
   return (
     <>
-      <h2>Catégories :</h2>
+      <div className="titre">
+        <h3>Catégories :</h3>
+      </div>
       <div className="image-container">
         <article className="sorciere">
           <p>sorciere</p>

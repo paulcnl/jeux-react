@@ -1,34 +1,37 @@
 * {
-	margin: o;
+  margin: 0;
+  padding: 0;
 }
 
 .bas-de-page {
-	background-color: #163052;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	width: 100vw;
-	height: 64px;
+  background-color: #163052;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100vw;
+  height: 64px;
+  margin: 0;
+  height: 5vh;
 }
 
 .bas-de-page ul {
-	display: flex;
-	width: 100vw;
-	justify-content: space-evenly;
-	flex-wrap: wrap;
-	gap: 1rem;
-	padding: 0 1rem;
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  padding: 0 1rem;
+  height: 5vh;
 }
 
 .bas-de-page ul li {
-	display: flex;
-	font-size: .5rem;
+  display: flex;
+  font-size: 0.5rem;
+  height: 1rem;
 }
 
 .bas-de-page ul li a {
-	text-decoration: none;
-	color: white;
-	font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-	text-shadow: 0 -1px 1px #e01313, 0 -2px 10px rgb(255, 221, 0), 0 -10px 20px
-		#ff8000, 0 -18px 30px #f00;
+  text-decoration: none;
+  color: white;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
