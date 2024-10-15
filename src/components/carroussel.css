@@ -1,3 +1,11 @@
+.carroussel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
 .carroussel-container {
   display: flex;
   width: 80vw;
@@ -110,6 +118,12 @@
 
 .article-carroussel h2 {
   position: fixed;
+  font-size: 2.5rem;
+  color: #ffffffd4;
+}
+
+.article-carroussel h3 {
+  text-align: center;
   font-size: 2.5rem;
   color: #ffffffd4;
 }
