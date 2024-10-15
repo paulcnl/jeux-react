@@ -1,42 +1,78 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#08111d;
+  color: white;
+  padding: 0 20px;
+  height: 70px;
+  width: 100vw;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+header .item-logo{
+  display: contents;
+  align-items: center;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+@media screen {
+  header {
+    padding: 0 10px;
+    height: 60px;
+  
+}
+h1.brand-logo {
+  font-size: 1.4rem;
+} 
+
+ .item-logo img {
+  width: 32px;
+  height: 32px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.item-nav li img {
+  width: 30px;
+  height: 30px;
+} 
+   .item-logo {
+  margin-right: 15px;
+}
+ 
+ .item-nav {
+  gap: 12px;
+}
+} 
+
+h1.brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.item-logo img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
 }
 
-.card {
-  padding: 2em;
+.item-nav {
+  display: flex;
+  gap: 20px;
 }
 
-.read-the-docs {
-  color: #888;
+.item-nav li img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
 }
+
+
+
