@@ -1,0 +1,99 @@
+:root {
+  --background-color-article: hsla(214, 72%, 67%, 0.036);
+}
+
+.image-container {
+  display: grid;
+  grid-template-columns: 90px 90px 90px;
+  grid-template-rows: 73.3px 73.3px 73.3px;
+  gap: 14px;
+}
+
+@media screen and (min-width: 700px) {
+  .image-container {
+    display: grid;
+    grid-template-columns: 190px 190px 190px;
+    grid-template-rows: 173.3px 173.3px 173.3px;
+    gap: 14px;
+  }
+}
+
+.image-container p {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.513);
+}
+
+.fantome p {
+  position: fixed;
+}
+
+article {
+  background-color: var(--background-color-article);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+article:hover {
+  background-color: hsla(214, 46%, 51%, 0.241);
+}
+
+.sorciere {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-column: 1/2;
+  grid-row: 1/4;
+}
+
+.sorciere img {
+  width: 100%;
+  height: 70%;
+}
+
+.vampire {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.vampire img {
+  width: 110%;
+  height: 80%;
+}
+
+.zombie {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.zombie img {
+  width: 120%;
+  height: 80%;
+}
+
+.fantome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  grid-column: 2/4;
+  grid-row: 3/4;
+}
+
+.fantome-img {
+  display: flex;
+  justify-content: space-between;
+
+  width: 90%;
+  height: 90%;
+}
