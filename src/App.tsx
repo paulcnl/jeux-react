@@ -1,5 +1,10 @@
-import "./App.css";
+
+import Header from './Header'
+import Carroussel from "./components/carroussel"; // Assure-toi d'utiliser une majuscule pour le nom du composant
+import Grid from "./components/grid";
 import Footer from "./Footer";
+import "./App.css";
+
 
 function App() {
 	const footer = {
@@ -11,9 +16,20 @@ function App() {
 		political: "Politique de confidentialité et de gestion des cookies",
 		parameter: "Paramètres de confidentialité et de cookies",
 	};
-
-	return (
-		<div className="bas-de-page">
+	
+  return (
+    
+    <div className="all">
+      <div>
+      <Header/>
+    </div>
+      <div className="grid">
+        <Grid />
+      </div>
+      <div className="carroussel">
+        <Carroussel />
+      </div>
+	  <div className="bas-de-page">
 			<Footer
 				nebulaShopInc={footer.nebulaShopInc}
 				rightGuides={footer.rightGuides}
@@ -24,7 +40,8 @@ function App() {
 				parameter={footer.parameter}
 			/>
 		</div>
-	);
+    </div>
+  );
 }
 
 export default App;

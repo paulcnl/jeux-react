@@ -1,0 +1,98 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#08111d;
+  color: white;
+  padding: 0 20px;
+  height: 70px;
+  width: 100vw;
+}
+header .item-logo{
+  display: contents;
+  align-items: center;
+}
+@media screen {
+  header {
+    padding: 0 10px;
+    height: 60px;
+  
+}
+h1.brand-logo {
+  font-size: 1.4rem;
+} 
+
+ .item-logo img {
+  width: 32px;
+  height: 32px;
+}
+
+.item-nav li img {
+  width: 30px;
+  height: 30px;
+} 
+   .item-logo {
+  margin-right: 15px;
+}
+ 
+ .item-nav {
+  gap: 12px;
+}
+} 
+
+h1.brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.item-logo img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.item-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.item-nav li img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.all {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .all {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.grid {
+  padding-bottom: 2rem;
+}
+
+.carroussel {
+  margin-bottom: 8rem;
+}
+
+
+
