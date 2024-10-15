@@ -73,6 +73,26 @@ h1.brand-logo {
   height: 30px;
   cursor: pointer;
 }
+.all {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+  .all {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.grid {
+  padding-bottom: 2rem;
+}
+
+.carroussel {
+  margin-bottom: 8rem;
+}
 
 
 
